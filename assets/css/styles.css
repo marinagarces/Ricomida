@@ -1,0 +1,39 @@
+/**Estilos de Indicators de Carrusel*/
+.carousel-indicators li {
+  margin-top: 100px;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
+}
+
+/**Estilos para sección Newsletter*/
+.newsletter {
+  color: white;
+  background-color: #EE4949;
+  text-align: center;
+  padding: 10%;
+}
+/**Estilos para footer*/
+footer {
+  color: white;
+  background-color: #453F3F;
+  text-align: center;
+  padding: 2%;
+}
+
+
+/**Fuente Ricomida*/
+.fuenteRicomida{
+font-family: 'Lobster', cursive;
+
+}
+
+/**El Carrusel desaparece en resoluciones bajas*/
+  @media screen and (min-width: 480px){
+
+  	#carouselExampleIndicators
+  	{
+  display: none;
+
+  	}
